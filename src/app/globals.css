@@ -1,0 +1,19 @@
+@import "tailwindcss";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #171f12;
+}
+.app{
+    
+    
+    background-image: url('https://s3-alpha-sig.figma.com/img/5196/aba5/8f7006d90ec0712ac1d01688cde1a537?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=FTK4bSsxk40xdNO2UWTGIyKrOxwFJA7PMLpxCrEQ1y66ba20Lwj5r2Bz-8r7k7sihBD~oB8F5epm-roEajj51Ww5PJnoi8b9oXH4dqKRZDbtJFMIyKcCZBfdd2j1zlFc93-KxudWZ4srs9MBoXRqazpngQuWkyhhyWFDhH2-yjq3cb3ijLl-Nd4bdC17fH2ZMO0Csh5E48i0Acq-NWyxHkipeXR6v9cUQU3avVQIweIaeU6rV6W8eZfPM6DfO2XIhiObEqfhizwQLRctLPeFxENFfhtLqjGyxFScXPvwjOdELCdgxS39~HG1C3Q2XPZt83iPF96sGRhrGaCxH1Ajkw__');
+
+background-repeat: no-repeat;
+background-size: contain;
+height: 100vh;
+
+}
