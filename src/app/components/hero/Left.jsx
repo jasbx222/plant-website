@@ -1,9 +1,17 @@
+"use client"
 import { PlayCircle, Star } from 'lucide-react'
 import './Hero.css'
-
+import {easeIn, motion} from 'framer-motion'
 const Left = () => {
+  const transition = {
+    duration: 0.8,
+    delay: 2,
+    repeat: Infinity, // Loop forever
+    opacity: { ease: "linear" }
+  }
   return (
-    <div className='left'>
+    <div
+    className='left'>
         <div className='text-body'>
             <h1
         className='text-title'
@@ -26,7 +34,15 @@ const Left = () => {
         <span>life Demo...</span>
     </div>
 </div>
-<div className="alina-contant relative md:left-3.5 md:top-10 top-10">
+<motion.div
+
+className="alina-contant relative md:left-3.5 md:top-10 top-10"
+
+animate={{ y:100 }}
+transition={transition}
+drag
+dragTransition={{ timeConstant: 200 }}
+>
 <div className="alina  flex relative left-10 top-5">
     <div className="image-user">
 <img src="https://s3-alpha-sig.figma.com/img/c288/0a28/770e9b4d669d837a65f88f0748c6911b?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=fmZGjBB4YodVJVUpojBU1k5MU77f8nc3MfiifjvpAP-o5ZSBlOr7Hzb8Z6e1toe8E2szvjotiScn2rG0IFx~EddwxPQufloy0rQbloIpdEkThyP2WJNNvMW9EBwPvnI8IXsKuu0UWaZ7MpSgEd2o-h-H3pLVQ7ar-vfsmYSETbT9W9q8uBbTbXMFa4q7N8BWfom-UgKdqMfet25nugd4pwtm~6jsyTZe0yBACLr3JSd2D6rpKDRGsFNVvXR1WS9tZXx2FZLP3rwp1Ajo7l~QviYVGuXAU-5e0A14VYETihX0sl899ZBSTERu4AaqmC1Ef-d8GPu7jXVs5-OyAFsXoQ__" alt="" />
@@ -46,7 +62,7 @@ const Left = () => {
 </div>
 <p className=' relative top-5 left-3.5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, doloremque?</p>
 
-</div>
+</motion.div>
 
    </div>
     </div>
