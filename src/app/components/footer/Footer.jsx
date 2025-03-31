@@ -2,7 +2,7 @@ import { EqualApproximatelyIcon, Smile } from 'lucide-react';
 import '../OurTopSelling/OurTop.css'
 export default function Footer() {
   return (
-    <footer className="bg-footer relative top-72 md:top-0 text-white py-8">
+    <footer className="bg-footer relative top-96 md:top-0 text-white py-8">
       {" "}
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-start gap-8">
         {" "}
