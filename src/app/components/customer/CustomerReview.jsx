@@ -43,7 +43,7 @@ export default function CustomerReview() {
         color:'rgba(255, 255, 255, 0.5)'
       }}/>
       </h2>
-      <div className="flex flex-wrap justify-center gap-8 px-4">
+      <div className="flex flex-wrap relative top-32 md:top-0 justify-center gap-8 px-4">
         {reviews.map((review, index) => (
           <div
             key={index}
