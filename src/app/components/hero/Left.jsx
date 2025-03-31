@@ -4,8 +4,8 @@ import './Hero.css'
 import {easeIn, motion} from 'framer-motion'
 const Left = () => {
   const transition = {
-    duration: 0.8,
-    delay: 2,
+    duration: 2,
+    delay: 0.5,
     repeat: Infinity, // Loop forever
     opacity: { ease: "linear" }
   }

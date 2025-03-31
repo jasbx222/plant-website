@@ -1,0 +1,19 @@
+.ourtrendy{
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    -webkit-backdrop-filter: blur(10px); 
+    width: 800px;
+    height: 300px;
+    border-radius: 60px;
+}
+
+.containt{
+    width: 100%;
+}
+.containt p{
+    margin-top: 10px;
+}
+
+.containt button{
+    margin-top: 10px;
+}
