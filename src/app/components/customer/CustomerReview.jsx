@@ -37,7 +37,7 @@ export default function CustomerReview() {
         height: "100vh",
       }}
     >
-      <h2 className="text-white text-3xl flex justify-center gap-4 items-center font-semibold text-center mb-8 relative bottom-20">
+      <h2 className="text-white text-3xl flex justify-center gap-4 items-center font-semibold text-center mb-8 relative md:bottom-20">
      <span> Customer Review</span>
       <LineChart size={40} style={{
         color:'rgba(255, 255, 255, 0.5)'
