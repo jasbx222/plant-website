@@ -17,3 +17,15 @@
 .containt button{
     margin-top: 10px;
 }
+
+.bg-customer{
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    -webkit-backdrop-filter: blur(10px); 
+    width: 400px;
+
+    text-align: center;
+    height: 200px;
+    border-radius: 60px;
+    
+}

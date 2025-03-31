@@ -29,7 +29,7 @@ const OurTrendy = () => {
             <div className='w-full md:w-1/2 flex justify-center'>
           <img 
             className='w-full md:w-3/4 rounded-lg shadow-lg'
-            src="https://s3-alpha-sig.figma.com/img/b483/12db/ddc890f7f35ef3964ae1e7900b89782c?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=O9XFKBPt-14AI1MuBiWuTQw6Wu7wer8Sm-QNaHHxYxhl2VOUXtCliU7j6733KprnxO230jbOlxHrE2hwxe7TmkK2xMyOYb1AU1Z1vtr-UjpZqzAnh4gPys76IL1M6UskuXQVBEAVBF5DAiOFTmdRt4p8joW288BrLxwnut-4NH7sPxH16mnUb8uA-flRvClRxYoMNbed8yPgcla5LWcPNryRe2ijKRfnKQTLd8lv~RnrcrDljQPctNVIgDcgf3lnCy1d7G5h2E1IS6bHPwm-syBBxH4VACbeVp10jtyAeD8Kxm2xMHMT~8JOTvWZuG1sk5RlCI~1otcDcAQgkIW3Jw__" 
+            src="https://s3-alpha-sig.figma.com/img/444f/ba49/a2674d2262c5455bcc501cb91b314490?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=o~eTTCm0-LJLN5Vrbh5eyWyj4DvOTPm2VejUQCrmhUu7WbJzRQgOpcrxWt97LC1ubMHr9MNnOK-OYyL6U~7l5p8eatROV4~CKwAU4GAxX1l5vntsDMcuA7G4LXped2e2rwSP4kbspPE-YNP-12dPh1g4pV1uh5wTCrLwdgX430O1LhZ0or4vMwhfpsc9FrYB4Hu7ptyR58I5v5bcKPyzwsn-7Fh3DIHX~oYs01J90wUKhc6~mPNdFwypG49zogQ4N0a5eMrlvqcJioKqTXjnmQXlOUyAQzy05s2gzf8Hpr3mQfepPZU0243MAvLqlvjE~yVgD2~MF4PQX831bWcqdA__" 
             alt="Plant"
           />
         </div>

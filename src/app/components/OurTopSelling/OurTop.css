@@ -1,0 +1,7 @@
+.bg-plant{
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    -webkit-backdrop-filter: blur(10px); 
+    border-radius: 50px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
